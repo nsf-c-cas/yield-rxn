@@ -168,9 +168,11 @@ with open(input_data_path) as datafile:
         data_dict[name]['base_atom_cat'] = clean(line.get(base_key,{}).get('Atomic_number_Cation',0))   
         
         ########## other features in AZ data
-        data_dict[name]['reaction_scale'] = clean(line.get('scale',0))
+        data_dict[name]['metal_amount'] = clean(line.get('metal_amount',0))
+        data_dict[name]['amine_amount'] = clean(line.get('amine_amount',0))
+        data_dict[name]['halide_amount'] = clean(line.get('halide_amount',0))
         data_dict[name]['base_amount'] = clean(line.get('base_amount',0))
-        data_dict[name]['catalyst_amount'] = clean(line.get('catalyst_amount',0))
+        data_dict[name]['ligand_amount'] = clean(line.get('ligand_amount',0))
         data_dict[name]['reaction_volume'] = clean(line.get('volume',0))
         ##########
         
