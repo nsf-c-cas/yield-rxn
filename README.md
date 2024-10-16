@@ -34,11 +34,11 @@ Finally, clone this repository to your local machine.
 ```
 2. Download the data from the below google drive links and put it in: ./data/<data_name>/raw/
 
-[Suzuki data (su)](http://shorturl.at/qCQ16)
+Suzuki data (su) (Link currently under maintenance, please check back soon)
 
-[Doyle data (dy)](http://shorturl.at/eBC59)
+Doyle data (dy) (Link currently under maintenance, please check back soon)
 
-[AstraZeneca data (az)](http://shorturl.at/hiBH2)
+AstraZeneca data (az) (Link currently under maintenance, please check back soon)
 
 
 3. Prepare the domain features (chemical properties) by running 
